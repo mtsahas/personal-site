@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+}
+
+.sidebar{
+    position: sticky;
+    /* top: 10%;
+    left: 3%; */
+    width:8%;
+    font-size: 15px;
+    /* padding-top: 8%; */
+    padding: 8% 4%;
+}
+ul{
+    list-style: none;
+}
+.sidebar li{
+    margin: 15px 0;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar a:hover{
+    color: blue;
+}
+.content{
+    flex-grow: 1; /* This will make the content div to take the remaining space */
+    padding: 2% 13%;
+    
+}
+.name{
+    text-align: left;
+    margin-bottom: 3%;
+}
+.section{
+    margin:3% 0;
+}
+.section-title{
+    font-size: 20px;
+}
+.section-content{
+    font-size: 17px;
+    margin: 3% 0;
+}
+.section li{
+    margin: 1%;
+    text-decoration: none;
+}
+.section a{
+    color: gray;
+}
+hr{
+    border: none;    
+    background-color: lightgray;
+    height: 2px;
+}
+i{
+    /* color: gray; */
+    font-size: smaller;
+}
+img{
+    height: 100px;
+    width:100px;
+    overflow:hidden;
+    object-fit: cover;
+}
+.top-image{
+    height: 200px;
+    width: 33vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+.top-bar{
+    height: 30px;
+}
